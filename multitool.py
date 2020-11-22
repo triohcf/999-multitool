@@ -152,7 +152,7 @@ if option == 1:
         print(Fore.RED + "[999 Multi-Tool] ─ No valid cookies were found")
     print(Fore.GREEN + "[999 Multi-Tool] ─ All cookies have been checked and the working ones have been written to valid.txt")
 elif option == 2:
-    print("\n[Hell] ─ Note that this option doesn't need proxies")
+    print("\n[999 Multi-Tool] ─ Note that this option doesn't need proxies")
     dupes = 0
     type = int(input("\n[1] Combos\n[2] Cookies\nEnter option of what you're checking for dupes: "))
     if type == 1:
@@ -162,10 +162,10 @@ elif option == 2:
     print("[Hell] ─ Checking is beginning...")
     if type == 2:
         duplicate_cookie_checker()
-        print(Fore.GREEN + "[Hell] ─ Version with non dupes can be found in valid.txt")
+        print(Fore.GREEN + "[999 Multi-Tool] ─ Version with non dupes can be found in valid.txt")
     elif type == 1:
         duplicate_combo_checker()
-        print(Fore.GREEN + "[Hell] ─ Version with non dupes can be found in valid.txt")
+        print(Fore.GREEN + "[999 Multi-Tool] ─ Version with non dupes can be found in valid.txt")
 else:
     print(Fore.RED + "[999 Multi-Tool] ─ You picked an invalid option -- exitting program")
     time.sleep(30)
